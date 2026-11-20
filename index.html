@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Catherine Chen</title><meta name="description" content="I’m Catherine, a Master of Financial Insurance student at the University of Toronto. I use data and technology to understand risk and improve the way teams work."><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230c2940'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='37' fill='%23b8ebda'%3EC%3C/text%3E%3C/svg%3E"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0c2940;--muted:#52616c;--line:#d6dfe4;--accent:#14654e;--mint:#b8ebda;--paper:#fff;--pale:#f2f6f8}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid #21a983;outline-offset:6px}header,main,footer{max-width:1260px;margin:auto}header{padding:27px 42px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.wordmark{font-weight:700;font-size:20px;letter-spacing:-.6px}.mark{display:none}nav{display:flex;gap:30px;font-size:14px}nav a:hover,.text-link:hover{color:var(--accent);text-decoration:underline;text-underline-offset:6px}main{padding:0 42px}.hero{padding:78px 0 84px;display:grid;grid-template-columns:1.65fr 1fr;gap:72px;align-items:center}.eyebrow,.section-number,.note-label,.company{font-size:12px;letter-spacing:1.6px;font-weight:700}.eyebrow{color:var(--accent);margin:0 0 26px}h1{font:normal clamp(44px,5vw,68px)/1.12 Georgia,serif;letter-spacing:-2.6px;margin:0 0 26px}h1 em{color:var(--accent);font-weight:normal}.intro{max-width:580px;font-size:19px;line-height:1.7;color:var(--muted)}.actions{display:flex;gap:26px;align-items:center;flex-wrap:wrap;margin-top:30px}.button{background:var(--ink);color:white;padding:13px 21px;border-radius:3px;font-weight:600;font-size:15px;display:flex;gap:25px;align-items:center}.button:hover{background:var(--accent)}.text-link{font-size:15px;font-weight:600}.location{font-size:13px;color:var(--muted);margin-top:25px}.profile-note{background:var(--ink);color:white;padding:29px 31px;position:relative;border-top:4px solid var(--mint)}.note-label{color:var(--mint);font-size:11px}.monogram{font:normal 128px/1 Georgia,serif;margin-top:28px;letter-spacing:-12px;color:var(--mint)}.monogram span{color:white}.note-degree{font:normal 30px/1.2 Georgia,serif;position:absolute;right:30px;top:92px}.note-bottom{margin-top:33px;padding-top:11px;border-top:1px solid #436072}.note-bottom p{font-size:14px;margin:15px 0 0}.note-bottom span{display:block;font-size:12px;color:#cad7df;margin-top:3px}.section{border-top:1px solid var(--line);padding:68px 0}.section-heading{margin-bottom:36px}.section-number{display:block;color:var(--accent);margin-bottom:16px}h2{font:normal 38px/1.25 Georgia,serif;letter-spacing:-1px;margin:0}h3{font-size:21px;line-height:1.4;letter-spacing:-.4px;margin:8px 0 16px}.about{display:grid;grid-template-columns:1fr 1.25fr;gap:75px}.about-content>p{margin:0 0 20px;color:var(--muted)}.skills h3{font-size:14px;letter-spacing:0;margin-top:27px}.tags{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px;margin:0}.tags li{font-size:13px;border:1px solid var(--line);padding:3px 11px;border-radius:3px}.honours{margin-top:29px;padding-left:17px;border-left:3px solid var(--accent)}.honours span{font-size:11px;letter-spacing:1.3px;color:var(--muted)}.honours p{font-size:14px;margin:5px 0}.horizontal{display:flex;align-items:end;justify-content:space-between;gap:30px}.horizontal>p{color:var(--muted);font-size:14px}.role{display:grid;grid-template-columns:230px 1fr;gap:40px;border-top:1px solid var(--line);padding:30px 0}.role:last-child{padding-bottom:0}.role-meta{font-size:14px}.role-meta p{margin:0}.role-meta span{color:var(--muted);font-size:13px}.company{color:var(--accent);margin:0;font-size:11px}.role h3 span{font-size:13px;color:var(--muted);font-weight:400;display:inline-block;margin-left:8px;letter-spacing:0}.role ul{padding-left:18px;margin:0;color:var(--muted)}.role li{padding-left:4px;margin:6px 0;font-size:15px}.role strong{color:var(--ink);font-weight:600}.project-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.project{background:var(--pale);padding:30px;border-top:3px solid var(--ink);display:flex;flex-direction:column}.project-top{display:flex;justify-content:space-between;font-size:11px;letter-spacing:1.1px;color:var(--muted);margin-bottom:25px}.project-top>span:first-child{font:italic 22px Georgia,serif;color:var(--accent)}.project h3{font:normal 28px/1.2 Georgia,serif;max-width:380px}.project>p{color:var(--muted);font-size:15px;margin:0 0 20px}.metric{padding:20px 0;margin-bottom:22px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.metric strong{font:normal 42px/1.2 Georgia,serif;color:var(--accent);display:block}.metric small{font:normal 18px Georgia,serif}.metric span{font-size:13px;color:var(--muted)}.project .tags{margin-top:auto}.contact{margin:8px 0 60px;background:var(--ink);color:white;padding:46px;display:grid;grid-template-columns:1.2fr 1fr;gap:80px}.contact .section-number{color:var(--mint)}.contact h2{font-size:44px}.contact p{color:#ced9e0;font-size:16px;margin-bottom:0}.contact-links{align-self:center}.contact-links a{display:flex;justify-content:space-between;border-bottom:1px solid #476073;padding:16px 0;font-size:16px}.contact-links a:hover{color:var(--mint)}footer{padding:0 42px 28px;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted)}.skip{position:absolute;left:20px;top:-100px;padding:12px;background:white;z-index:9}.skip:focus{top:10px}@media(max-width:950px){.hero{gap:32px}.note-degree{position:static;font-size:27px}.monogram{display:none}.about{gap:35px;grid-template-columns:1fr 1.2fr}.role{grid-template-columns:185px 1fr;gap:25px}.contact{gap:35px}}@media(max-width:680px){header{padding:20px 22px;align-items:start;gap:18px;flex-direction:column}nav{gap:23px;flex-wrap:wrap}main{padding:0 22px}.hero{grid-template-columns:1fr;padding:44px 0;gap:35px}h1{font-size:45px;letter-spacing:-1.7px}.intro{font-size:17px}.profile-note{padding:23px}.note-degree{font-size:29px;position:static;margin:20px 0}.note-degree br{display:none}.note-degree br:after{content:' '}.note-bottom{margin-top:20px}.section{padding:42px 0}.about{grid-template-columns:1fr;gap:0}h2{font-size:32px}.horizontal{display:block}.role{grid-template-columns:1fr;gap:14px;padding:25px 0}.role-meta p br{display:none}.role-meta{display:flex;gap:15px;flex-wrap:wrap}.project-grid{grid-template-columns:1fr}.project{padding:25px}.contact{grid-template-columns:1fr;padding:28px;gap:16px;margin-bottom:32px}.contact h2{font-size:36px}footer{padding:0 22px 25px;flex-wrap:wrap}footer>span:nth-child(2){display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+header .wordmark{font-family:"Cormorant Garamond",Georgia,serif;font-size:36px;font-style:italic;font-weight:600;letter-spacing:.2px;line-height:1.3;white-space:nowrap}nav{gap:22px;flex-wrap:wrap}.profile-note .monogram{display:none}.profile-note .note-degree{position:static;margin:26px 0}.profile-note .note-degree br{display:block}.education-grid,.personal-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.education-card,.personal-card{padding:28px;background:var(--pale);border-top:3px solid var(--accent)}.education-card p,.personal-card p{color:var(--muted)}.education-card h3,.personal-card h3{font:normal 26px/1.3 Georgia,serif}.small-meta{font-size:13px;color:var(--muted)}.section-intro{max-width:720px;color:var(--muted);margin:18px 0 30px}.personal-card .metric{margin:22px 0}.more-details{margin-top:18px;border-top:1px solid var(--line);padding-top:14px}.more-details summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:14px}.more-details summary:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.more-details p{font-size:15px;color:var(--muted)}.early-experience{margin-top:30px;border:1px solid var(--line);padding:22px 26px}.early-experience>summary{font-size:18px}.early-experience article{padding:22px 0;border-bottom:1px solid var(--line)}.early-experience article:last-child{border:0}.early-experience h3{font-size:19px;margin-bottom:6px}.early-experience p{margin:8px 0}.language-note{margin-top:26px;font-size:14px;color:var(--muted)}@media(max-width:950px){header{gap:20px;flex-wrap:wrap}}@media(max-width:680px){.education-grid,.personal-grid{grid-template-columns:1fr}.education-card,.personal-card{padding:24px}header .wordmark{font-size:34px}nav{gap:14px 20px}.early-experience{padding:18px}}
+
+
+/* Personal photos and university logos */
+.portrait-card{margin:0;background:var(--pale);border-bottom:3px solid var(--accent);overflow:hidden}.portrait-card>img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:52% center}.portrait-card figcaption{padding:20px 25px}.portrait-card figcaption p{font:normal 25px/1.3 Georgia,serif;margin:9px 0 0}.school-logo{height:110px;background:transparent;margin-bottom:22px;display:flex;align-items:center;justify-content:center;padding:10px}.school-logo img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}.life-gallery{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:0 0 42px}.life-card{margin:0;border:1px solid var(--line);background:#fff;overflow:hidden}.life-card>img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain}.life-card figcaption{padding:26px}.life-card h3{font:normal 27px/1.25 Georgia,serif;margin:12px 0}.life-card p{color:var(--muted);margin:0;font-size:16px}.creative-heading{font:normal 28px/1.3 Georgia,serif;margin-bottom:24px}@media(max-width:680px){.portrait-card{width:100%;max-width:420px;margin:auto}.portrait-card>img{aspect-ratio:4/5}.life-gallery{grid-template-columns:1fr;gap:26px}.school-logo{height:95px}.life-card figcaption{padding:23px}}
+
+
+/* Simplified headings and homepage links */
+.social-links{display:flex;gap:12px;align-items:center}.social-icon{width:44px;height:44px;border:1px solid var(--ink);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:var(--ink);transition:background .15s,color .15s}.social-icon svg{width:23px;height:23px}.social-icon:hover{background:var(--ink);color:white}.actions{gap:22px}.about{align-items:start}.about .portrait-card{max-width:400px}.about-content{padding-top:34px}h2.section-number{font-family:inherit;font-size:12px;line-height:1.65;letter-spacing:1.6px;font-weight:700;margin:0 0 20px}.section-heading{margin-bottom:24px}.section-heading.horizontal{display:block}.earlier-link{margin-top:28px}.earlier-link .button{display:inline-flex}.profile-note .note-degree{font-size:38px;line-height:1.2}.chapter-main{max-width:960px;padding-top:48px;padding-bottom:60px}.chapter-main h1{font-size:46px;letter-spacing:-1px}.chapter-list article{padding:28px 0;border-bottom:1px solid var(--line)}.chapter-list article p{color:var(--muted)}.chapter-list article .company{color:var(--accent)}@media(max-width:680px){.about-content{padding-top:0}.about .portrait-card{margin:0}.profile-note .note-degree{font-size:32px}.chapter-main h1{font-size:36px}}
+
+
+/* Larger section labels and compact personal photos */
+h2.section-number,.section-number{font-size:19px;line-height:1.5;letter-spacing:1.5px}.inline-link{color:var(--accent);text-decoration:underline;text-underline-offset:3px}.portrait-card{border-bottom:0}.life-gallery{max-width:800px;margin:0 auto 36px;gap:24px}.life-card>img{height:320px;aspect-ratio:auto;object-fit:contain;background:var(--pale)}.life-card figcaption{padding:20px}.life-card h3{font-size:24px}.life-card p{font-size:15px}.annuity-project{grid-column:1 / -1}.annuity-project h3{max-width:none}.project-findings{padding-left:20px;margin:0 0 22px;color:var(--muted);font-size:15px}.project-findings li{margin:8px 0}.chapter-list ul{padding-left:21px;color:var(--muted)}.chapter-list li{margin:10px 0}@media(max-width:680px){h2.section-number,.section-number{font-size:17px}.life-gallery{max-width:400px}.life-card>img{height:280px}.annuity-project{grid-column:auto}}
+
+
+/* Keep projects in a balanced two-column layout. */
+.annuity-project{grid-column:auto}.project-top{gap:12px;align-items:baseline}.project-top>span:last-child{text-align:right}.project h3{max-width:none}
+
+header nav{font-size:16px;font-weight:600;gap:24px}header nav a{padding:8px 0}header nav a:hover{color:var(--accent);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:7px}@media(max-width:680px){header nav{font-size:15px;gap:8px 20px}}
+
+.education-grid{align-items:stretch}.education-grid>.education-card{height:100%;display:flex;flex-direction:column}.education-card .honours{margin-top:20px;margin-bottom:0;padding:14px 0 0;border-left:0;border-top:1px solid var(--line)}.education-card .honours p{color:var(--ink);margin-bottom:0}
+
+/* Larger labels and aligned About columns */
+h2.section-number,.section-number{font-size:24px;line-height:1.35;letter-spacing:1.3px}
+.about{grid-template-columns:minmax(280px,400px) minmax(0,1fr);column-gap:70px;row-gap:24px;align-items:stretch}
+.about>.about-title{grid-column:1 / -1;margin:0}
+.about>.portrait-card{width:100%;max-width:none;margin:0;align-self:stretch;position:relative;min-height:500px}
+.about>.portrait-card>img{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:52% center}
+.about-content{padding-top:0;display:flex;flex-direction:column;min-width:0}
+.about-content>p{font-size:18px;line-height:1.75;margin:0 0 24px}
+.about-content .skills{margin-top:auto;padding-top:6px}
+.about-content .skills h3{font-size:17px;margin:0 0 15px;letter-spacing:0}
+.about-content .tags{gap:9px}
+.about-content .tags li{font-size:14px;padding:5px 12px}
+@media(max-width:950px){.about{grid-template-columns:minmax(240px,.9fr) minmax(0,1.2fr);column-gap:34px}.about-content>p{font-size:17px;line-height:1.7}}
+@media(max-width:680px){h2.section-number,.section-number{font-size:21px}.about{grid-template-columns:1fr;row-gap:25px}.about>.about-title{grid-column:1}.about>.portrait-card{max-width:400px;min-height:0;align-self:start}.about>.portrait-card>img{position:static;height:auto;aspect-ratio:4/5}.about-content>p{font-size:17px}.about-content .skills{margin-top:0}}
+
+
+.hero .intro-name{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.55em;font-style:italic;font-weight:600;color:#0c2940;line-height:1.2}
+
+/* Prominent name across the portfolio */
+header .wordmark{font-size:44px;color:#0c2940;font-weight:600;line-height:1.2} @media(max-width:680px){header .wordmark{font-size:38px}}
+
+/* Three personal interests, with consistent photo heights. */
+.life-gallery{max-width:none;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.life-card{display:flex;flex-direction:column;min-width:0}.life-card>img{height:300px;flex-shrink:0}.life-card figcaption{display:flex;flex-direction:column;flex:1}.life-card .food-note{margin-top:auto;padding-top:18px;font-size:12px;line-height:1.5;color:var(--muted)}@media(max-width:900px){.life-gallery{gap:16px}.life-card>img{height:240px}.life-card figcaption{padding:18px}.life-card h3{font-size:23px}}@media(max-width:680px){.life-gallery{grid-template-columns:1fr;max-width:400px}.life-card>img{height:280px}}
+
+
+.food-more{display:inline-block;margin-top:18px;color:var(--accent);font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+</style><style>
+.project .project-findings{padding-left:19px;margin:0 0 24px;font-size:15px;line-height:1.65}
+.project .project-findings li{margin:0 0 7px}
+.project .project-top{align-items:flex-start}
+.project .project-top>span:last-child{max-width:85%;line-height:1.5}
+</style><style>
+/* Project browsing */
+#projects .section-heading{margin-bottom:24px}
+#projects [hidden]{display:none!important}
+.project-tools{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:26px}
+.project-filters{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:20px}
+.project-filter{font:inherit;font-size:14px;line-height:1.4;border:1px solid var(--line);border-radius:24px;background:white;color:var(--ink);padding:10px 15px;min-height:44px;cursor:pointer;display:inline-flex;align-items:center;gap:10px}
+.project-filter:hover{border-color:var(--ink);color:var(--ink)}
+.project-filter[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:white}
+.project-filter-count{font-size:12px;opacity:.78;font-variant-numeric:tabular-nums}
+.project-tool-fields{display:flex;align-items:flex-end;gap:18px}
+.project-field{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:600;color:var(--muted)}
+.project-search-field{flex:1;max-width:460px}
+.project-field input,.project-field select{font:inherit;font-size:14px;font-weight:400;line-height:1.5;color:var(--ink);background:white;border:1px solid var(--line);border-radius:4px;min-height:44px;padding:10px 12px;width:100%;min-width:0}
+.project-sort-field{min-width:172px;margin-left:auto}
+.project-results-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:14px;min-height:28px}
+.project-results{margin:0;font-size:13px;color:var(--muted)}
+.project-reset{border:0;background:none;color:var(--ink);font:inherit;font-size:13px;font-weight:600;cursor:pointer;min-height:32px;padding:3px 0;text-decoration:underline;text-underline-offset:3px}
+.project-filter:focus-visible,.project-field input:focus-visible,.project-field select:focus-visible,.project-reset:focus-visible{outline:3px solid #0c2940;outline-offset:3px}
+.project-empty{padding:32px 22px;border:1px solid var(--line);background:var(--pale);color:var(--muted);text-align:center;margin:0}
+@media(max-width:680px){.project-filters{gap:8px}.project-filter{font-size:13px;padding:9px 12px;gap:7px}.project-tool-fields{align-items:stretch;flex-direction:column;gap:12px}.project-search-field{max-width:none}.project-sort-field{margin-left:0;min-width:0}.project-results-bar{align-items:baseline}}
+</style><style id="sticky-navigation-style">
+/* Keep section navigation available while scrolling. */
+html{scroll-padding-top:calc(var(--navigation-height, 180px) + 16px)}
+body>header{position:sticky;top:0;z-index:8;background:var(--paper);box-shadow:0 4px 12px rgba(12,41,64,.05)}
+body>header nav{min-width:0}
+body>header nav a{display:inline-block;white-space:nowrap}
+@media print{body>header{position:static;box-shadow:none}}
+</style></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header><a class="wordmark" href="#">Catherine Chen<span class="mark">CC</span></a>
+<nav aria-label="Main navigation"><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#beyond">Beyond work</a><a href="#contact">Contact</a></nav></header>
+<main id="main">
+<section class="hero">
+<div class="hero-copy">
+<p class="eyebrow">FINANCIAL MATHEMATICS · RISK · DATA</p>
+<h1>Analytical thinking.<br><em>Practical impact.</em></h1>
+<p class="intro">I’m <strong class="intro-name">Catherine</strong>, a Master of Financial Insurance student at the University of Toronto. I use data and technology to understand risk and improve the way teams work.</p>
+<div class="actions"><a class="button" href="resume.html">View résumé <span aria-hidden="true">↗</span></a>
+<div class="social-links" aria-label="Connect with Catherine">
+<a class="social-icon" href="https://linkedin.com/in/catherinechen0930" target="_blank" rel="noopener noreferrer" aria-label="Catherine Chen on LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5.4 3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8ZM3.5 9H7v12H3.5V9Zm5.8 0h3.4v1.6h.1c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.3 2.3 4.3 5.3v7H17v-6.2c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V21H9.3V9Z"/></svg></a>
+<a class="social-icon" href="mailto:catherineyq.chen@mail.utoronto.ca" aria-label="Email Catherine" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a></div></div>
+<p class="location">Based in the Greater Toronto Area</p>
+</div>
+<aside class="profile-note" aria-label="Background at a glance"><span class="note-label">BACKGROUND AT A GLANCE</span><p class="note-degree">Quant Analysis.<br>Risk Management.<br>Communication.</p><div class="note-bottom"><p>University of Toronto<span>Master of Financial Insurance · 2026 to 2027</span></p><p>University of Waterloo<span>BMath, Financial Analysis & Risk Management · 2021 to 2026 </span></p></div></aside>
+</section>
+<section id="about" class="section about">
+<h2 class="section-number about-title">01 / ABOUT</h2>
+<figure class="portrait-card">
+<img src="assets/catherine-headshot.jpg" alt="Catherine Chen wearing a cream blazer" width="1600" height="1067" loading="lazy">
+
+</figure>
+<div class="about-content">
+<p>I’m Catherine, and I enjoy learning new things and working with people who bring different perspectives. I studied Financial Analysis and Risk Management at the University of Waterloo, where I graduated with distinction, and I’m now pursuing a Master of Financial Insurance at the University of Toronto. My co-op roles have taken me from web development to insurance and enterprise risk, giving me opportunities to explore different interests and learn from each team.</p>
+<p>I’m interested in risk management, credit risk, and insurance analytics. At TDSB and MPAC, I worked on vendor tracking, supplier risk data, and reporting. I enjoy understanding how a process works and finding practical ways to improve it.</p>
+<div class="skills">
+<h3>Tools I work with</h3>
+<ul class="tags">
+<li>Python</li>
+<li>R</li>
+<li>SQL</li>
+<li>Excel / VBA</li>
+<li>Power BI</li>
+<li>MATLAB</li>
+<li>Quarto</li>
+<li>HTML / CSS</li>
+<li>LaTeX</li>
+<li>Google Analytics</li>
+<li>Canva</li>
+</ul>
+
+</div>
+
+</div>
+</section>
+<!-- EDUCATION -->
+<section id="education" class="section">
+<div class="section-heading"><h2 class="section-number">02 / EDUCATION</h2>
+
+</div>
+<div class="education-grid">
+<article class="education-card">
+<div class="school-logo"><img src="assets/uoft-logo.jpg" alt="University of Toronto, Statistical Sciences to Master of Financial Insurance" loading="lazy"></div>
+<p class="company">UNIVERSITY OF TORONTO</p>
+<h3>Master of Financial Insurance</h3>
+<p class="small-meta">September 2026; expected completion 2027<br>Department of Statistical Sciences</p>
+<p>Continuing my studies in mathematical finance, insurance risk management, data science, and machine learning.</p>
+</article>
+<article class="education-card">
+<div class="school-logo"><img src="assets/waterloo-logo.jpg" alt="University of Waterloo, Faculty of Mathematics to Department of Statistics and Actuarial Science" loading="lazy"></div>
+<p class="company">UNIVERSITY OF WATERLOO</p>
+<h3>Honours Bachelor of Mathematics</h3>
+<p class="small-meta">September 2021 to June 2026<br>Financial Analysis and Risk Management · Co-op</p>
+<p>My studies built a foundation in statistics, financial analysis, and quantitative risk.</p>
+<div class="honours"><span>ACADEMIC RECOGNITION</span>
+<p>Graduated with Distinction · Term Distinction in 8 terms</p>
+</div></article>
+</div>
+<div class="earlier-link"><a class="button" href="relevant-courses.html">Explore relevant courses <span aria-hidden="true">↗</span></a></div>
+<p class="language-note"><strong>Professional development:</strong> FRM Part I candidate.</p>
+</section>
+<!-- PROFESSIONAL EXPERIENCE -->
+<section id="experience" class="section">
+<div class="section-heading horizontal">
+<div><h2 class="section-number">03 / EXPERIENCE</h2>
+
+</div>
+
+</div>
+<div class="timeline">
+<article class="role">
+<div class="role-meta">
+<p>Apr to Aug 2025</p><span>Pickering, Canada</span>
+</div>
+<div>
+<p class="company">MUNICIPAL PROPERTY ASSESSMENT CORPORATION</p>
+<h3>Procurement & Strategic Operations <span>Co-op</span></h3>
+<ul>
+<li>Built a centralized <strong>vendor compliance dashboard</strong> tracking 120+ suppliers’ Certificates of Insurance, integrating expiry alerts and contact updates to enable efficient <strong>renewal cycle forecasting</strong> and reduce manual follow-ups by 75%</li>
+<li>Co-led a cross-departmental <strong>workflow optimization survey</strong>, designing and deploying a Microsoft Form to identify process bottlenecks across 6 business units; applied <strong>descriptive analytics</strong> to inform MPAC’s “One-MPAC” collaboration strategy</li>
+<li>Contributed to the development of <strong>supplier risk evaluation models</strong> using EDIA and Supplier Code of Conduct disclosures, establishing a foundational dataset for <strong>risk heatmapping</strong> and longitudinal tracking</li>
+<li>Improved internal <strong>procurement governance tools</strong>, including reengineering approval-tracking forms, compiling a searchable legislation knowledge base, and drafting training module content and visual communications to enhance <strong>policy awareness</strong></li>
+</ul>
+</div>
+</article>
+<article class="role">
+<div class="role-meta">
+<p>May to Dec 2024</p><span>North York, Canada</span>
+</div>
+<div>
+<p class="company">TORONTO DISTRICT SCHOOL BOARD</p>
+<h3>Insurance & Enterprise Risk <span>Co-op</span></h3>
+<ul>
+<li>Developed and deployed automated vendor tracking tools using advanced <strong>Excel</strong> formulas, reducing manual workload and streamlining onboarding for 200+ vendors across preparation, renewal, and approval stages</li>
+<li>Queried internal databases with <strong>SQL</strong> to monitor application timelines and generate weekly status reports, supporting inter-departmental communication and strategic vendor engagement</li>
+<li>Built <strong>Excel VBA</strong> macros to classify shared inbox inquiries and summarize recurring issues, improving response efficiency and stakeholder transparency</li>
+<li>Maintained and enhanced the Excursion website using <strong>HTML/CSS</strong>, resolving technical issues and redesigning layout to improve staff and vendor user experience</li>
+</ul>
+
+</div>
+</article>
+<article class="role">
+<div class="role-meta">
+<p>Sep to Dec 2022<br>May to Aug 2023</p><span>Waterloo, Canada</span>
+</div>
+<div>
+<p class="company">UNIVERSITY OF WATERLOO</p>
+<h3>Web Assistant <span>Co-op</span></h3>
+<ul>
+<li>Remediated and modernized over 100+ pages during a major web migration project (<a class="inline-link" href="https://uwaterloo.ca/work-learn-institute/" target="_blank" rel="noopener noreferrer">Work-Learn Institute</a>), including <strong>link validation</strong>, <strong>layout redesign</strong>, and embedded component fixes (e.g., expand/collapse) using <strong>HTML/CSS</strong></li>
+<li>Collaborated in a 6-person agile team to build the <a class="inline-link" href="https://uwaterloo.ca/centre-for-work-integrated-learning/" target="_blank" rel="noopener noreferrer">Centre for Work-Integrated Learning website</a>; created responsive web pages from draft wireframes, implemented layout enhancements</li>
+<li>Developed internal tools in <strong>Python</strong> to assist with data collection, content audit, and automatic detection of broken links, improving web maintenance efficiency</li>
+<li>Standardized employee profile data (e.g., promotions and photos) using structured spreadsheets and data-cleaning scripts to ensure consistent presentation across department sites</li>
+</ul>
+</div>
+</article>
+<article class="role">
+<div class="role-meta">
+<p>Sep 2026 to Present</p><span>Toronto, Canada</span>
+</div>
+<div>
+<p class="company">UNIVERSITY OF TORONTO</p>
+<h3>Teaching Assistant <span>Part-time</span></h3>
+<ul>
+<li>Coordinate <strong>grading</strong> to maintain consistent assessment standards, and support <strong>exam proctoring</strong> to help assessments run smoothly</li>
+<li>Organize textbook solution files and convert them to <strong>Quarto (.qmd)</strong>, creating consistently formatted teaching materials that are easier to navigate and maintain</li>
+<li>Provide <strong>student support on Piazza</strong> by responding to course questions and clarifying concepts, helping students work through areas of confusion</li>
+</ul>
+</div>
+</article>
+</div>
+
+<div class="earlier-link"><a class="button" href="how-i-work.html">How I work <span aria-hidden="true">↗</span></a></div>
+</section>
+<section id="projects" class="section projects">
+<div class="section-heading"><h2 class="section-number">04 / SELECTED PROJECTS</h2></div>
+<div class="project-tools" id="project-tools" hidden>
+<div class="project-filters" role="group" aria-label="Filter projects by area">
+<button class="project-filter" type="button" data-filter="all" aria-pressed="true" aria-controls="project-grid">All projects <span class="project-filter-count" aria-hidden="true">12</span></button>
+<button class="project-filter" type="button" data-filter="finance" aria-pressed="false" aria-controls="project-grid">Finance &amp; Markets <span class="project-filter-count" aria-hidden="true">5</span></button>
+<button class="project-filter" type="button" data-filter="insurance" aria-pressed="false" aria-controls="project-grid">Insurance &amp; Risk <span class="project-filter-count" aria-hidden="true">4</span></button>
+<button class="project-filter" type="button" data-filter="data" aria-pressed="false" aria-controls="project-grid">Data &amp; ML <span class="project-filter-count" aria-hidden="true">5</span></button>
+<button class="project-filter" type="button" data-filter="statistics" aria-pressed="false" aria-controls="project-grid">Statistics <span class="project-filter-count" aria-hidden="true">4</span></button>
+</div>
+<div class="project-tool-fields">
+<label class="project-field project-search-field" for="project-search">Search projects or skills
+<input type="search" id="project-search" placeholder="Try Python, credit risk or Monte Carlo" autocomplete="off" aria-controls="project-grid"></label>
+<label class="project-field project-sort-field" for="project-sort">Sort by
+<select id="project-sort" aria-controls="project-grid"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Title A to Z</option></select></label>
+</div>
+<div class="project-results-bar"><p class="project-results" id="project-results" role="status" aria-live="polite" aria-atomic="true">Showing all 12 projects</p><button class="project-reset" id="project-reset" type="button" hidden>Reset filters</button></div>
+</div>
+<!-- For each new project, set data-categories (finance, insurance, data, statistics) and data-date (YYYY-MM, completion month). -->
+<div class="project-grid" id="project-grid">
+<article class="project" id="quote-conversion-project" data-categories="insurance data statistics" data-date="2026-11">
+<div class="project-top"><span>01</span><span>Oct to Nov 2026 · STA 2526</span></div>
+<h3>Auto insurance quote conversion with logistic regression</h3>
+<p>Built a Python model to rank submitted auto insurance quotes by their likelihood of becoming a policy within 30 days, with the aim of helping prioritize follow-up.</p>
+<div class="metric"><strong>0.756 <small>test AUROC</small></strong><span>Ranking performance on 2,400 later-dated quotes, with preprocessing and model selection kept separate from the test sample.</span></div>
+<ul class="project-findings"><li>Excluded post-submission fields and fitted imputation, encoding and scaling on training data only. Compared full and IV-screened ridge logistic models using chronological validation.</li><li>Checked calibration and coefficient stability. The final model predicted 26.7% conversion against 21.6% observed on the test sample, highlighting overprediction as conversion rates fell.</li></ul>
+<ul class="tags"><li>Python / scikit-learn</li><li>pandas</li><li>Logistic regression</li><li>Feature selection</li><li>Calibration</li><li>Out-of-time validation</li></ul>
+</article>
+<article class="project" id="portfolio-risk-project" data-categories="finance insurance" data-date="2026-11">
+<div class="project-top"><span>02</span><span>Oct to Nov 2026 · STA 2540</span></div>
+<h3>Portfolio risk measurement with VaR and Expected Shortfall</h3>
+<p>Collaborated on a Python analysis of an equity and bond portfolio, estimating Value at Risk (VaR) and Expected Shortfall (ES) with historical and Monte Carlo simulation.</p>
+<div class="metric"><strong>US$840.06 <small>five-day 99% VaR</small></strong><span>Historical estimate for a US$10,000 portfolio, compared with US$414.53 under the Gaussian Monte Carlo model.</span></div>
+<ul class="project-findings"><li>Cleaned S&amp;P 500 data and calibrated correlated equity, Treasury yield and credit spread shocks. Generated 100,000 scenarios per horizon and checked simulated means, volatilities and correlations.</li><li>Compared one-day and five-day risk estimates across equities and bonds, examining diversification and the limits of a normal model fitted to 2020 market data.</li></ul>
+<ul class="tags"><li>Python / NumPy</li><li>pandas</li><li>Value at Risk</li><li>Expected Shortfall</li><li>Monte Carlo simulation</li><li>Model validation</li></ul>
+</article>
+<article class="project" id="american-put-project" data-categories="finance" data-date="2026-11">
+<div class="project-top"><span>03</span><span>Nov 2026 · STA 2503</span></div>
+<h3>American put option pricing and early exercise analysis</h3>
+<p>Built a Python pricer for American put options and examined how changes in interest rates and volatility affect exercise decisions and hedging.</p>
+<div class="metric"><strong>&lt;0.01% <small>price change</small></strong><span>The baseline put price changed by less than 0.01% when the tree increased from 800 to 1,600 steps.</span></div>
+<ul class="project-findings"><li>Used CRR binomial trees to find when early exercise was optimal and plotted delta hedges for paths exercised early or held to maturity.</li><li>Kept pricing volatility at 20% and varied simulated volatility from 10% to 30% to measure its effect on discounted profit and loss and exercise timing.</li></ul>
+<ul class="tags"><li>Python / NumPy</li><li>Binomial option pricing</li><li>Monte Carlo simulation</li><li>Delta hedging</li><li>Sensitivity analysis</li></ul>
+</article>
+<article class="project" id="stock-return-project" data-categories="finance data" data-date="2026-10">
+<div class="project-top"><span>04</span><span>Oct 2026 · STA 2530</span></div>
+<h3>Stock return forecasting with LASSO and LSTM models</h3>
+<p>Used Python to compare LASSO regression with single and multilayer LSTMs for next-day Coca-Cola stock return forecasts, examining how model complexity and input history affect performance.</p>
+<div class="metric"><strong>4.6% <small>lower test MSE</small></strong><span>LASSO had a lower mean squared error than the single-layer LSTM using 20-day inputs on the January to June 2026 test period.</span></div>
+<ul class="project-findings"><li>Calculated returns from 1,457 daily observations, tested normality and estimated drift and volatility under a geometric Brownian motion model.</li><li>Used chronological data splits and training-only scaling to tune LASSO and LSTM models; tested input windows from 10 to 100 days and applied early stopping to the neural networks.</li></ul>
+<ul class="tags"><li>Python / pandas</li><li>scikit-learn</li><li>TensorFlow / Keras</li><li>Time series forecasting</li><li>Model validation</li></ul>
+</article>
+<article class="project" id="ead-ccf-project" data-categories="insurance data" data-date="2026-10">
+<div class="project-top"><span>05</span><span>Oct 2026 · STA 2526</span></div>
+<h3>Exposure at default and credit conversion factors for revolving credit</h3>
+<p>Collaborated on a Python project to integrate credit account data and calculate exposure at default (EAD) and credit conversion factors (CCF) using a 180-day observation horizon.</p>
+<div class="metric"><strong>4,733 <small>default episodes</small></strong><span>Preserved all retained episodes through integration, with no duplicate episode IDs or calculation reconciliation differences.</span></div>
+<ul class="project-findings"><li>Standardized six source tables and matched historical balances, credit limits and pending authorizations using date and record-availability checks to prevent future information leakage.</li><li>Calculated EAD and CCF, flagged missing inputs and undefined ratios, and validated results against the underlying records.</li></ul>
+<ul class="tags"><li>Python / pandas</li><li>Credit risk</li><li>EAD &amp; CCF</li><li>Historical data matching</li><li>Data validation</li></ul>
+</article>
+<article class="project" id="european-call-project" data-categories="finance" data-date="2026-10">
+<div class="project-top"><span>06</span><span>Oct 2026 · STA 2503</span></div>
+<h3>European call pricing with binomial and Monte Carlo models</h3>
+<p>Priced a one-year European call on NVIDIA in Python using a CRR binomial tree and geometric Brownian motion simulations, comparing both methods with the Black-Scholes formula.</p>
+<div class="metric"><strong>&lt;US$0.01 <small>pricing difference</small></strong><span>The 1,000-step binomial price was within one cent of the Black-Scholes value under the same model assumptions.</span></div>
+<ul class="project-findings"><li>Simulated Brownian motion and scaled random walks, then used backward induction to price the call across seven binomial tree sizes.</li><li>Ran 100,000 risk-neutral GBM paths and estimated sampling uncertainty using standard errors and a 95% confidence interval, which contained the Black-Scholes price.</li></ul>
+<ul class="tags"><li>Python / NumPy</li><li>CRR binomial pricing</li><li>Geometric Brownian motion</li><li>Monte Carlo simulation</li><li>Model validation</li></ul>
+</article>
+<article class="project annuity-project" data-categories="insurance" data-date="2026-09">
+<div class="project-top"><span>07</span><span>JULY to SEP 2026 · MFI</span></div>
+<h3>Mortality pooling and longevity risk in life annuity pricing</h3>
+<p>Modelled how mortality pooling and longer lifespans affect immediate life annuity costs, combining analytical pricing and simulation in a team project.</p>
+<div class="metric"><strong>10,000 <small>simulations</small></strong><span>Monte Carlo mean within 0.083% of the analytical expected present value</span></div>
+<ul class="project-findings"><li>Compared individual and pooled mortality risk under a fixed 4% interest rate.</li><li>A 9% mortality reduction raised modelled liability from $91,576 to $93,523 per policy, excluding expenses and capital requirements.</li></ul>
+<ul class="tags"><li>Actuarial pricing</li><li>Monte Carlo simulation</li><li>Longevity risk</li><li>Stress testing</li></ul>
+</article>
+<article class="project" data-categories="finance" data-date="2026-04"><div class="project-top"><span>08</span><span>SEP 2021 to APR 2026 · FARM</span></div><h3>Portfolio management and trading simulation</h3><p>Managed a virtual portfolio across four undergraduate milestones, documenting investment decisions, trading outcomes, and risk strategies.</p><div class="metric"><strong>C$1 million</strong><span>starting virtual capital · 4 milestone reports</span></div><ul class="project-findings"><li>Applied security screening, short selling, options and futures strategies.</li><li>Reflected on trade outcomes and developed a policy for diversification, liquidity and risk control.</li></ul>
+<ul class="tags"><li>Portfolio management</li><li>Derivatives</li><li>Security selection</li><li>Risk management</li></ul></article>
+<article class="project" id="stat371-project" data-categories="data statistics" data-date="2026-04"><div class="project-top"><span>09</span><span>MAR to APR 2026 · STAT 371</span></div><h3>Explaining automobile prices with regression</h3><p>Explored how vehicle characteristics relate to price through a team analysis of the UCI Automobile dataset, using regression models in R.</p><div class="metric"><strong>0.907</strong><span>adjusted R² · fit to the analysed sample</span></div><ul class="project-findings"><li>Prepared 199 observations; compared model selection approaches in R.</li><li>Checked residuals and influential observations; selected a final model with eight predictors.</li></ul>
+<ul class="tags"><li>R</li><li>Multiple regression</li><li>Model selection</li><li>Diagnostics</li></ul></article>
+<article class="project" data-categories="statistics" data-date="2025-11"><div class="project-top"><span>10</span><span>OCT to NOV 2025 · STAT 334</span></div><h3>Modelling Craps with an absorbing Markov chain</h3><p>Collaborated on a six-state Markov chain model of the pass-line bet in Craps, assuming fair, independent dice.</p><div class="metric"><strong>49.29%</strong><span>theoretical probability of winning the modelled bet</span></div><ul class="project-findings"><li>Built a transition matrix and analysed eventual win probabilities.</li><li>Calculated a 1.41% house edge, illustrating the pass-line bet’s negative expected return.</li></ul>
+<ul class="tags"><li>Markov chains</li><li>Stochastic processes</li><li>Probability</li><li>Expected value</li></ul></article>
+<article class="project" data-categories="statistics" data-date="2025-04">
+<div class="project-top"><span>11</span><span>JAN to APR 2025 · STAT 332</span>
+</div>
+<h3>What influences calorie burn?</h3>
+<p>Co-designed a two-factor randomized complete block experiment to investigate how workout type and time of day affect calorie burn.</p>
+<div class="metric"><strong>12 <small>participants</small></strong><span>6 treatment combinations</span>
+</div>
+<ul class="project-findings"><li>Used ANOVA and visualizations in R to assess main and interaction effects.</li><li>Workout type dominated; time of day had a smaller significant effect.</li></ul>
+<ul class="tags">
+<li>R</li>
+<li>ANOVA</li>
+<li>Experimental design</li>
+</ul>
+</article>
+<article class="project" data-categories="data" data-date="2023-12">
+<div class="project-top"><span>12</span><span>SEP to DEC 2023 · East China Normal University</span>
+</div>
+<h3>Machine learning for business project evaluation</h3>
+<p>Developed an MLP model with a professor to predict investment recommendations, structuring expert reviews from 314 articles across six dimensions.</p>
+<div class="metric"><strong>81.8%</strong><span>validation accuracy</span>
+</div>
+<ul class="project-findings"><li>Cleaned and annotated data, filtered outliers, and split training and validation sets.</li><li>Authored and published the research paper under faculty supervision.</li></ul>
+<ul class="tags">
+<li>R / RSNNS</li>
+<li>Machine learning</li>
+<li>Data preparation</li>
+</ul>
+</article>
+</div>
+<p class="project-empty" id="project-empty" hidden>No projects match this search. Try another keyword or choose a different area.</p>
+</section>
+
+<!-- PERSONAL INTERESTS, LEADERSHIP, AND EARLY EXPERIENCE -->
+<section id="beyond" class="section">
+<div class="section-heading"><h2 class="section-number">05 / LIFE BEYOND THE RÉSUMÉ</h2>
+
+
+</div>
+<div class="life-gallery">
+<figure class="life-card"><img src="assets/two-cats.jpg" width="1200" height="1600" alt="My two cats, a golden cat and a smaller silver tabby, looking up together" loading="lazy"><figcaption><span class="company">AT HOME</span><h3>My two cats</h3><p>These are my two lovely cats. They’re a very special part of my life.</p><a class="food-more" href="cats.html">Click to view more <span aria-hidden="true">↗</span></a></figcaption></figure>
+<figure class="life-card"><img src="assets/everyday-moments.jpg" width="1200" height="1600" alt="Peach-coloured clouds over the water, with a passing boat and a bird in flight" loading="lazy"><figcaption><span class="company">THROUGH MY LENS</span><h3>Life through my lens</h3><p>I love taking photos, whether I’m travelling or just on my way somewhere. When I notice a beautiful scene, I like to stop and capture it. This is one of those moments.</p><a class="food-more" href="photography.html">Click to view more <span aria-hidden="true">↗</span></a></figcaption></figure>
+<figure class="life-card food-card"><img src="assets/thai-dessert.jpg" width="1050" height="1400" alt="Mango slices arranged as a flower over blue sticky rice with coconut sauce" loading="lazy"><figcaption><span class="company">AT THE TABLE</span><h3>Trying something new</h3><p>I enjoy trying food from different countries. It’s one of my favourite ways to get to know other cultures and stay open to new experiences.</p><p class="food-note">*Note: Pictured is Thai mango sticky rice.</p><a class="food-more" href="food.html">Click to view more <span aria-hidden="true">↗</span></a></figcaption></figure>
+</div>
+<h3 class="creative-heading">Stories, creativity &amp; community</h3>
+<div class="personal-grid">
+<article class="personal-card">
+<p class="company">BILIBILI · MAY 2021 to PRESENT</p>
+<h3>Creating videos on Bilibili</h3>
+<p>I built a channel from scratch, teaching myself video editing and content strategy along the way. My videos include vlogs, film commentary, reactions, and interview-style conversations.</p>
+<div class="metric"><strong>30+ <small>original videos</small></strong><span>9,000+ likes on a single video</span>
+</div>
+<p>I enjoy planning, filming, and editing my videos. Viewers’ comments help me understand what they enjoy and what I can improve.</p>
+</article>
+<article class="personal-card">
+<p class="company">BUSINESS BRIGADES CLUB · JAN to APR 2024</p>
+<h3>Marketing with Business Brigades</h3>
+<p>As Marketing Executive, I designed posters and branding visuals, filmed and edited promotional content, and managed social media for events and fundraisers.</p>
+<div class="metric"><strong>25%</strong><span>increase in event attendance, semester over semester</span>
+</div>
+<p>I worked with the executive team to promote events and encourage more students to take part.</p>
+</article>
+</div>
+<p class="language-note"><strong>Languages:</strong> I’m fluent in Mandarin and speak Cantonese at an intermediate level.</p>
+<div class="earlier-link"><a class="button" href="earlier-chapters.html">Explore my earlier chapters <span aria-hidden="true">↗</span></a></div>
+</section>
+
+<section id="contact" class="contact">
+<div><span class="section-number">06 / CONTACT</span>
+<h2>Let’s connect.</h2>
+<p>Feel free to get in touch about opportunities in risk, insurance, or financial analytics. I’m always happy to connect.</p>
+</div>
+<div class="contact-links"><a href="mailto:catherineyq.chen@mail.utoronto.ca">Email Catherine <span aria-hidden="true">↗</span></a><a href="https://linkedin.com/in/catherinechen0930" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="Catherine-Chen-Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+</div>
+</section>
+</main>
+<footer><span>© 2026 Catherine Chen</span><span>Financial mathematics & analytics</span><a href="#">Back to top ↑</a></footer><script id="project-browsing">
+(() => {
+  const section = document.getElementById('projects');
+  const grid = document.getElementById('project-grid');
+  const tools = document.getElementById('project-tools');
+  if (!section || !grid || !tools) return;
+  const search = document.getElementById('project-search');
+  const sort = document.getElementById('project-sort');
+  const result = document.getElementById('project-results');
+  const reset = document.getElementById('project-reset');
+  const empty = document.getElementById('project-empty');
+  const buttons = Array.from(tools.querySelectorAll('[data-filter]'));
+  const normalize = value => value.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+  const projects = Array.from(grid.children).filter(card => card.classList.contains('project')).map((card, index) => ({
+    card,
+    index,
+    title: card.querySelector('h3').textContent.trim(),
+    date: card.dataset.date || '',
+    categories: (card.dataset.categories || '').split(/\s+/),
+    text: normalize(card.textContent)
+  }));
+  let active = 'all';
+  const matchesArea = (project, area) => area === 'all' || project.categories.includes(area);
+  function update() {
+    const terms = normalize(search.value).split(/\s+/).filter(Boolean);
+    const matchesSearch = project => terms.every(term => term.length === 1
+      ? project.text.split(' ').includes(term) : project.text.includes(term));
+    const sorted = [...projects].sort((a, b) => {
+      const order = sort.value === 'title' ? a.title.localeCompare(b.title, 'en')
+        : sort.value === 'oldest' ? a.date.localeCompare(b.date)
+        : b.date.localeCompare(a.date);
+      return order || a.index - b.index;
+    });
+    let visible = 0;
+    sorted.forEach(project => {
+      const show = matchesArea(project, active) && matchesSearch(project);
+      project.card.hidden = !show;
+      if (show) {
+        visible++;
+        project.card.querySelector('.project-top > span:first-child').textContent = String(visible).padStart(2, '0');
+      }
+      grid.appendChild(project.card);
+    });
+    buttons.forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.filter === active));
+      const count = projects.filter(project => matchesArea(project, button.dataset.filter) && matchesSearch(project)).length;
+      button.querySelector('.project-filter-count').textContent = String(count);
+    });
+    result.textContent = visible === projects.length ? `Showing all ${projects.length} projects`
+      : `Showing ${visible} of ${projects.length} projects`;
+    empty.hidden = visible !== 0;
+    reset.hidden = active === 'all' && !search.value && sort.value === 'newest';
+  }
+  buttons.forEach(button => button.addEventListener('click', () => {
+    active = button.dataset.filter;
+    update();
+  }));
+  search.addEventListener('input', update);
+  sort.addEventListener('change', update);
+  reset.addEventListener('click', () => {
+    active = 'all';
+    search.value = '';
+    sort.value = 'newest';
+    update();
+    buttons[0].focus();
+  });
+  update();
+  tools.hidden = false;
+})();
+</script><script id="sticky-navigation">
+(() => {
+  const header = document.querySelector('body > header');
+  if (!header) return;
+  const updateOffset = () => {
+    document.documentElement.style.setProperty('--navigation-height', `${Math.ceil(header.getBoundingClientRect().height)}px`);
+  };
+  updateOffset();
+  if ('ResizeObserver' in window) new ResizeObserver(updateOffset).observe(header);
+  else window.addEventListener('resize', updateOffset);
+})();
+</script></body></html>
